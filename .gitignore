@@ -1,0 +1,30 @@
+# Python 缓存与编译产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter 自动检查点
+.ipynb_checkpoints/
+
+# 密钥、凭据、本地配置（防止误传个人敏感信息）
+.env
+.env.*
+*.token
+*.key
+*.pem
+credentials.json
+secrets.json
+config.ini
+
+# 系统与编辑器无关文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 作业提交物不进代码仓库
+*.docx
+*.pdf
